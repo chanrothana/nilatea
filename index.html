@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nila Tea Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nila Tea</h1>
+        <h2>since 2011</h2>
+    </header>
+
+    <section class="order">
+        <h3>Your Order:</h3>
+        <ul id="order-list"></ul>
+        <button id="send-order" onclick="sendOrder()">Send Order to Telegram</button>
+    </section>
+
+    <main>
+        <section class="menu">
+            <div class="menu-item" onclick="selectItem('Brow Sugar', '3,500 រៀល')">
+                <img src="/img/Brown Sugar.jpg" alt="Brow Sugar">
+                <div class="item-info">
+                    <span class="item-name">Brow Sugar</span>
+                    <span class="item-price">3,500 រៀល</span>
+                </div>
+            </div>
+            <div class="menu-item" onclick="selectItem('ខារាមែល គ្រីម', '4,500 រៀល')">
+                <img src="/img/ខារាមែល គ្រីម.jpg" alt="ខារាមែល គ្រីម">
+                <div class="item-info">
+                    <span class="item-name">ខារាមែល គ្រីម</span>
+                    <span class="item-price">4,500 រៀល</span>
+                </div>
+            </div>
+            <div class="menu-item" onclick="selectItem('ដំឡូងស្វាយ', '3,500 រៀល')">
+                <img src="img/ដំឡូងស្វាយ.jpg" alt="ដំឡូងស្វាយ">
+                <div class="item-info">
+                    <span class="item-name">ដំឡូងស្វាយ</span>
+                    <span class="item-price">3,500 រៀល</span>
+                </div>
+            </div>
+            <div class="menu-item" onclick="selectItem('សូកូឡាគ្រីម', '3,500 រៀល')">
+                <img src="img/សូកូឡាគ្រីម.jpg" alt="សូកូឡាគ្រីម">
+                <div class="item-info">
+                    <span class="item-name">សូកូឡាគ្រីម</span>
+                    <span class="item-price">3,500 រៀល</span>
+                </div>
+            </div>
+            <div class="menu-item" onclick="selectItem('តែទឹកដោះគោ ខារ៉ាមែល', '4,500 រៀល')">
+                <img src="img/តែទឹកដោះគោ ខារ៉ាមែល.jpg" alt="តែទឹកដោះគោ ខារ៉ាមែល">
+                <div class="item-info">
+                    <span class="item-name">តែទឹកដោះគោ ខារ៉ាមែល</span>
+                    <span class="item-price">4,500 រៀល</span>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nila Tea. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
